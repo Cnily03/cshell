@@ -4,12 +4,9 @@ const path = require("path")
 const fs = require("fs")
 const program = require("commander")
 const exit = require("process").exit
-
-const safePath = (filepath) => {
-    let fp = path.resolve(".", filepath)
-    if (!fs.existsSync(fp)) console.error("File not found: " + fp), exit(1)
-    return fp
-}
+const {
+    safePath
+} = require("./components/util")
 
 helpMessage = () => program.outputHelp()
 

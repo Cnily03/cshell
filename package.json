@@ -40,6 +40,7 @@
     "index.js",
     "set-config.js",
     "default.fallback.json",
-    "default.json"
+    "default.json",
+    "components/**/*"
   ]
 }
