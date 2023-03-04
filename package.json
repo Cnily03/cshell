@@ -1,0 +1,45 @@
+{
+  "name": "cshell",
+  "version": "1.1.0",
+  "description": "HTTP server for bounce shell downloading",
+  "main": "index.js",
+  "scripts": {
+    "cshell": "node index.js",
+    "start": "node index.js",
+    "test": "node index.js",
+    "link": "npm link"
+  },
+  "keywords": [
+    "bounce",
+    "shell",
+    "hack",
+    "bash",
+    "hacker",
+    "ctf",
+    "bounce shell"
+  ],
+  "author": "Jevon Wang",
+  "email": "cnily03@outlook.com",
+  "license": "MIT",
+  "repository": "https://github.com/Cnily03/cshell",
+  "bugs": "https://github.com/Cnily03/cshell/issues",
+  "homepage": "https://github.com/Cnily03/cshell#readme",
+  "changeLog": "https://github.cin/cnily03/cshell/releases",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^10.0.0",
+    "koa": "^2.13.4",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0"
+  },
+  "bin": {
+    "cshell": "index.js",
+    "cshell-conf": "set-config.js"
+  },
+  "files": [
+    "index.js",
+    "set-config.js",
+    "default.fallback.json",
+    "default.json"
+  ]
+}
