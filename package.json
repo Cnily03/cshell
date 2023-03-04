@@ -1,6 +1,6 @@
 {
   "name": "cshell",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "HTTP server for bounce shell downloading",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "bash",
     "hacker",
     "ctf",
-    "bounce shell"
+    "ctf-tools"
   ],
   "author": "Jevon Wang",
   "email": "cnily03@outlook.com",

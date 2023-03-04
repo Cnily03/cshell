@@ -59,7 +59,7 @@ cshell-conf <path>
 
 Default config file is as followings.
 
-```json
+```js
 {
     // http server to visit
     "server-host": "127.0.0.1",
