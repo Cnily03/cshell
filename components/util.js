@@ -1,5 +1,6 @@
 const path = require("path")
 const fs = require("fs")
+const exit = require("process").exit
 
 const safePath = (filepath) => {
     let fp = path.resolve(".", filepath)
